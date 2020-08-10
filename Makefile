@@ -7,6 +7,7 @@ OBJS += client.o
 
 all:$(OBJS)
 	$(CC)   $^ -o $(TARGET)
+	$(CC) server.c -o server 
 
 %.o:%.c
 	$(CC) $(CFLAGS) $@ $< 

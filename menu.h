@@ -54,6 +54,16 @@ int menu_user_function();
 int menu_manager_function();
 
 /****************************************
+*Name       : menu_modify
+*Description: modify information
+*args       :
+              none
+*return     :
+              none 
+****************************************/
+void  menu_modify();
+
+/****************************************
 *Name       : menu_choose
 *Description: display choose command
 *args       :

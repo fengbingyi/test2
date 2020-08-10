@@ -92,7 +92,7 @@ int client_send(int sockfd, const void *buf, size_t len)
 		//ret = write(fd,buf,strlen(buf));
 		ret = send(sockfd,buf,len,0);
 	}while(EINTR ==errno);
-	if(ret<0){
+	if(ret<=0){
 		perror("TCPsend:");
 		exit(1);
 	}

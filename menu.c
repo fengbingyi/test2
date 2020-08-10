@@ -105,6 +105,27 @@ int menu_manager_function()
 	return 6;
 }
 
+
+
+/****************************************
+*Name       : menu_modify
+*Description: modify information
+*args       :
+              none
+*return     :
+              none 
+****************************************/
+int  menu_modify()
+{
+	printf("******************************\n");
+	printf("M is manager ,U is user\n");
+	printf("1.name(M&U) 2.age(M&U) 3.sex(M&U) 4.password(M) \n");
+	printf("5.number(M) 6.salary(M) 7.dept(M) 0.finish modify\n");
+	printf("******************************\n");
+	return 8;
+}
+
+
 /****************************************
 *Name       : menu_choose
 *Description: display choose command
