@@ -1,0 +1,99 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADD_USR	msg.h	16;"	d
+ALL_INFO	msg.h	32;"	d
+Add_User	usr_app.c	/^void Add_User(int socketfd)$/;"	f
+CC	Makefile	/^CC := gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS := -c -o$/;"	m
+DATABASE	service.c	20;"	d	file:
+DELECT_USR	msg.h	17;"	d
+DEPT1	msg.h	27;"	d
+DEPT2	msg.h	28;"	d
+DEPT3	msg.h	29;"	d
+DEPT4	msg.h	30;"	d
+Delect_User	usr_app.c	/^void Delect_User(int socketfd)$/;"	f
+FIR_TEN_INFO	msg.h	33;"	d
+INQUIRE_HISTORY	msg.h	15;"	d
+INQUIRE_INFO	msg.h	12;"	d
+IP	service.c	15;"	d	file:
+Inquire_History	usr_app.c	/^void Inquire_History(int socketfd)$/;"	f
+Inquire_Information	usr_app.c	/^void Inquire_Information(int socketfd) $/;"	f
+LOG_MANAGER	msg.h	10;"	d
+LOG_USR	msg.h	11;"	d
+LST_FIFTY_HIS	msg.h	35;"	d
+LST_TEN_INFO	msg.h	34;"	d
+MAN	msg.h	24;"	d
+MANAGER	msg.h	20;"	d
+Modify_Information	usr_app.c	/^void Modify_Information(int socketfd)$/;"	f
+N	service.c	17;"	d	file:
+NO	msg.h	39;"	d
+OK	msg.h	38;"	d
+PORT	service.c	16;"	d	file:
+QUIT	client.c	24;"	d	file:
+REGISTER_MANAGER	msg.h	8;"	d
+REGISTER_USR	msg.h	9;"	d
+Renew_Password	usr_app.c	/^int  Renew_Password(int socketfd)$/;"	f
+SEL_INFO	msg.h	36;"	d
+SERV_IP_ADDR	client.c	23;"	d	file:
+SERV_PORT	client.c	22;"	d	file:
+TARGET	Makefile	/^TARGET ?= app $/;"	m
+USER	msg.h	21;"	d
+VERIFY_INFO	msg.h	14;"	d
+VERIFY_PASSWORD	msg.h	13;"	d
+WONMAN	msg.h	25;"	d
+__CLIENT_H__	client.h	2;"	d
+__MENU_H__	menu.h	2;"	d
+age	msg.h	/^	int  age;           \/\/年龄$/;"	m	struct:mymsg
+callback	service.c	/^int callback(void* arg,int f_num,char** f_value,char** f_name)$/;"	f
+client_exit	client.c	/^void client_exit(int fd)$/;"	f
+client_init	client.c	/^int client_init()$/;"	f
+client_receive	client.c	/^int client_receive(int sockfd, void *buf, size_t len)$/;"	f
+client_send	client.c	/^int client_send(int sockfd, const void *buf, size_t len)$/;"	f
+cmd	msg.h	/^	int  cmd;           \/\/命令$/;"	m	struct:mymsg
+dept	msg.h	/^	char dept[20];      \/\/部门$/;"	m	struct:mymsg
+do_add_userinfo	service.c	/^void do_add_userinfo(int acceptfd, msg_t *msg, sqlite3 *db)     $/;"	f
+do_admin_login	service.c	/^int do_admin_login(int acceptfd, msg_t *msg , sqlite3 *db)$/;"	f
+do_admin_query	service.c	/^int do_admin_query(int acceptfd, msg_t *msg, sqlite3 *db)     \/\/管理员查询$/;"	f
+do_client	service.c	/^int do_client(int acceptfd, sqlite3 *db)$/;"	f
+do_delete_user	service.c	/^void do_delete_user(int acceptfd, msg_t *msg, sqlite3 *db)      {$/;"	f
+do_inquir_info	service.c	/^int do_inquir_info(int acceptfd, msg_t *msg, sqlite3 *db) 	 \/\/用户查询$/;"	f
+do_manager_register	service.c	/^void do_manager_register(int acceptfd, msg_t *msg, sqlite3 *db)$/;"	f
+do_update_info	service.c	/^void do_update_info(int acceptfd, msg_t *msg, sqlite3 *db)$/;"	f
+do_user_login	service.c	/^int do_user_login(int acceptfd, msg_t *msg , sqlite3 *db)$/;"	f
+do_usr_register	service.c	/^void do_usr_register(int acceptfd, msg_t *msg, sqlite3 *db)$/;"	f
+get_date	service.c	/^int get_date(char *date)$/;"	f
+inq_cnt	msg.h	/^	int  inq_cnt;       \/\/查询个数$/;"	m	struct:mymsg
+inq_mode	msg.h	/^	int  inq_mode;      \/\/查询模式$/;"	m	struct:mymsg
+login	usr_app.c	/^void login(int socketfd)$/;"	f
+login_manager	usr_app.c	/^int login_manager(int socketfd)$/;"	f
+login_user	usr_app.c	/^int login_user(int socketfd)$/;"	f
+main	service.c	/^int main(int argc, const char *argv[])$/;"	f
+main	usr_app.c	/^int main(int argc, const char *argv[])$/;"	f
+manager_function	usr_app.c	/^void manager_function(int socketfd)$/;"	f
+menu_choose	menu.c	/^void  menu_choose()$/;"	f
+menu_login	menu.c	/^int menu_login()$/;"	f
+menu_manager_function	menu.c	/^int menu_manager_function()$/;"	f
+menu_modify	menu.c	/^int  menu_modify()$/;"	f
+menu_register	menu.c	/^int menu_register()$/;"	f
+menu_user_function	menu.c	/^int menu_user_function()$/;"	f
+menu_wellcome	menu.c	/^int menu_wellcome()$/;"	f
+msg	msg.h	/^msg_t msg = {$/;"	v
+msg_t	msg.h	/^}msg_t;$/;"	t	typeref:struct:mymsg
+mymsg	msg.h	/^typedef struct mymsg{$/;"	s
+name	msg.h	/^    char name[20];      \/\/姓名$/;"	m	struct:mymsg
+number	msg.h	/^	int  number;        \/\/工号$/;"	m	struct:mymsg
+password	msg.h	/^	char password[20];  \/\/密码$/;"	m	struct:mymsg
+pri	msg.h	/^	char pri[10];           \/\/权限$/;"	m	struct:mymsg
+reg	usr_app.c	/^void reg(int socketfd)$/;"	f
+reg_manager	usr_app.c	/^int reg_manager(int sockfd)$/;"	f
+reg_usr	usr_app.c	/^int reg_usr(int sockfd)$/;"	f
+renew_password	service.c	/^void renew_password(int acceptfd, msg_t *msg, sqlite3 *db)      \/\/修改密码信息$/;"	f
+salary	msg.h	/^	int  salary;        \/\/薪水$/;"	m	struct:mymsg
+sex	msg.h	/^	char sex[10];           \/\/性别（"M"\/"W"）$/;"	m	struct:mymsg
+status	msg.h	/^	int  status;        \/\/返回$/;"	m	struct:mymsg
+user_function	usr_app.c	/^void user_function(int socketfd)$/;"	f
+usr	msg.h	/^	char usr[20];       \/\/用户名$/;"	m	struct:mymsg
