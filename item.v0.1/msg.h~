@@ -30,8 +30,8 @@
 #define USER             "user"
 
 /************性别定义********************/
-#define MAN              "man"
-#define WONMAN           "woman"
+#define MAN              'M'
+#define WONMAN           'W'
 //************部门定义*******************/
 #define DEPT1            1
 #define DEPT2            2
@@ -67,15 +67,15 @@ typedef struct mymsg{
 /*定义一个默认的变量供客户端测试使用*/
 msg_t msg = {
 	.cmd         = LOG_USR,
-	.usr         = "NA",
-	.pri         = "NA",
-	.name[0]     = "NA",     
+	.usr[0]      = 'N',
+	.pri         = 'U',
+	.name[0]     = 'N',     
     .age         = 18,         
     .sex         = MAN,          
-    .password    = "000000", 
-    .number      = 0,       
+    .password[0] = 'N', 
+    .number      = 1,       
     .salary      = 10000,       
-    .dept        = "NA",     
+    .dept[0]     = 'N',     
     .inq_mode    = ALL_INFO,     
     .inq_cnt     = 10,      
     .status      = 1,

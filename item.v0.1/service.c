@@ -105,7 +105,7 @@ int main(int argc, const char *argv[])
 	//填充结构体
 	bzero(&serveraddr, sizeof(serveraddr));
 	serveraddr.sin_family = AF_INET;
-	serveraddr.sin_addr.s_addr = inet_addr(IP);
+	serveraddr.sin_addr.s_addr = htonl(INADDR_ANY);
 	serveraddr.sin_port = htons(atoi(PORT));
 
 
